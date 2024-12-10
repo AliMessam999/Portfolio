@@ -1,0 +1,190 @@
+p
+{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/* 
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    background: red;
+    color: white;
+    margin: 20px;
+    margin-top: 40px;
+    
+    /* color: blue; */
+
+/* li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline;
+}
+
+div
+{
+    width: 1000px;
+} */
+
+/* a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+} */
+
+/* a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  } */ 
+
+/* #div1
+{
+    color: red;
+}
+    .div1
+    {
+        color: blue;
+    }    
+.div2
+{
+    color: blue;
+}   */
+
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    border: 1px solid black;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+  }
+  
+  /* th:nth-child(even), td:nth-child(even),  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  } */
+   tr:hover
+   {
+    background-color: #D6EEEE;
+   }
+
+   /* colgroup col:nth-child(1),
+  colgroup col:nth-child(2), colgroup col:nth-child(3) {
+    background-color: #D6EEEE;  */
+  ul
+  {
+    list-style-type: disc;
+  }
+
+body
+{
+    margin: 0;
+    padding: 0;
+}  
+
+/* .container
+    {
+        margin: 0;
+        padding: 0;
+      width: 100%;
+    }
+
+.container div 
+    {
+        margin-left: 5px;
+        width: 31%;
+        border: 1px solid black;
+       float: left;
+    }     */
+
+    .container
+    {
+        display: grid;
+        width: 100%;
+        /* flex-direction: row; */
+    }
+
+    div
+    {
+        width: 30%;
+        /* display: inline-block; */
+    }
+
+    /* iframe
+    {
+        width: 500px;
+        height: 500px;
+        border-radius: 250px;
+    } */
+/* 
+
+    #firstButton
+    {
+        border: 1px solid black;
+        text-align: center;
+        padding: 3px;
+        background-color: #D6EEEE;
+        border-radius: 15px;
+    }
+
+    #firstButton:hover
+    {
+        background: black;
+        color: white;
+    } */
+
+ 
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+  margin: 20px;
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+  margin: 20px;
+}
+
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+  margin: 20px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 20px;
+  }
+}
